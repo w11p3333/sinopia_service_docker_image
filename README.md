@@ -1,5 +1,8 @@
+
 # Introduce
 easy build your private npm by using docker image
+
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 
 ![](http://7xtc17.com1.z0.glb.clouddn.com/Snip20170511_36.png)
 
