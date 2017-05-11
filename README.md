@@ -1,6 +1,8 @@
 # Introduce
 easy build your private npm by using docker image
 
+![](http://7xtc17.com1.z0.glb.clouddn.com/Snip20170511_36.png)
+
 # Usage
 
 ## Create Image
