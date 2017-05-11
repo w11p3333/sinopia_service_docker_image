@@ -1,0 +1,9 @@
+version: '2'
+services:
+  sinopia:
+    image: sinopia
+    ports:
+      - "4873:4873"
+    restart: always
+    volumes:
+    - ./conf/:/conf/
