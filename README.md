@@ -1,30 +1,29 @@
-# 介绍
-一个sinopia服务的docker镜像 用于创建私有npm库
+# Introduce
+easy build your private npm by using docker image
 
-# 使用
+# Usage
 
-## 创建Image
+## Create Image
 
 ```bash
 cd docker
-docker build -t sinopia .
+docker build -t sinopia . # image named 'sinopia'
 ```
 
-## 创建container
+## Start Container
 
 ```bash
 ./start_sinopia_docker.sh
 ```
 
-## 进入container
+## Enter Container
 
 ```bash
-docker ps -a # 查看container id
+docker ps -a # Get your Container ID
 docker exec -it CONTAINER_ID bash
 ```
 
-## 修改sinopia服务配置
-修改conf/sinopia.yaml
-[配置详解](https://segmentfault.com/a/1190000005790827)
+## .yaml Config
 
+modify ```conf/sinopia.yaml```
 
